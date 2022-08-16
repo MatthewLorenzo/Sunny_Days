@@ -1,0 +1,62 @@
+body {
+  background-image: url("mountain.jpg");
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card{
+  background-color: rgba(256, 256, 256, 0.3);
+  border-radius: 20px;
+  padding-top: 1em;
+  padding-bottom: 6em;
+  padding-left: 3em;
+  padding-right: 3em;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-top: 2em;
+}
+
+.img {
+  height: 100%;
+}
+
+.location {
+  font-weight: 900;
+}
+
+.search-box {
+  padding: 1px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(256, 256, 256, 0.4);
+  border-width: 0;
+  height: 30px;
+  width: 250px;
+  font-weight: 100;
+}
+
+.location {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.temperature {
+  font-size: 35px;
+  padding-top: 20px;
+  font-weight: 900;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 300;
+}
