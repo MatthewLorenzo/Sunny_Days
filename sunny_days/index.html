@@ -4,30 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css" />
-  <script src="./main.js"></script>
   <title>Sunny Days</title>
 </head>
 <body>
-  <header>
-    <input type ="text" autocomplete="off" class="search-box" placeholder="Search for a city...">
-  </header>
   <div class="card">
     <div class="weather-data">
       <div class="location">
-        <h2>Location</h2>
+        <h2>Please Allow Location</h2>
       </div>
-      <div class="temperature"></div>
+      <div class="temperature">0°F</div>
       <div class="icon">
         <img id="weather_icon" src=""; alt="weather icon"> 
       </div>
-      <div class="description">
-        <div class="weather-description"></div>
-        <div class="humidity"></div>
-        <div class="sunrise"></div>
-        <div class="sunset"></div>
+      <div class="description"> 
+        <div class="weather-description">Weather Description</div>
+        <div class="humidity">Humidity %</div>
+        <div class="sunrise"> Sunrise: </div>
+        <div class="sunset">Sunset: </div>
       </div>
     </div>
   </div>
+  <div class = "buttons">
+    <button class="fahrenheit" type="button"fahrenheit>F</button>
+    <button class="celcius" type="button"celcius>C</button>
+  </div>
 </body>
+<link rel="stylesheet" href="index.css" />
+<script src="./main.js"></script>
 </html>
